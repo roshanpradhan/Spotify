@@ -1,0 +1,40 @@
+{
+  "name": "spotify",
+  "version": "1.0.0",
+  "description": "spotify clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RP",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.8.1",
+    "@parcel/babel-preset-env": "^2.9.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.0.7",
+    "sass": "^1.62.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@types/babel-traverse": "^6.25.7",
+    "@types/jest": "^29.5.2",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@types/sass": "^1.45.0",
+    "babel-jest": "^29.5.0",
+    "css-loader": "^6.7.4",
+    "node-sass": "^9.0.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
