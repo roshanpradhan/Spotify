@@ -1,5 +1,7 @@
 import React from "react";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import HomePage from "./Pages/HomePage/Homepage";
+import { PlayerProvider } from "./Context/PlayerContext";
 
 const App = () => {
   const client = new ApolloClient({
@@ -7,9 +9,11 @@ const App = () => {
     cache: new InMemoryCache(),
   });
   return (
-    <ApolloProvider client={client}>
-      <div>Spotify Clone</div>
-    </ApolloProvider>
+    <PlayerProvider>
+      <ApolloProvider client={client}>
+        <HomePage />
+      </ApolloProvider>
+    </PlayerProvider>
   );
 };
 

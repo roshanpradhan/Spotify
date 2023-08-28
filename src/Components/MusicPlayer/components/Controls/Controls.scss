@@ -1,0 +1,40 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  .optionButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff1a;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  .playPause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .previousBtn {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .nextBtn {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .startStop {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      margin: 0 10px;
+    }
+  }
+}

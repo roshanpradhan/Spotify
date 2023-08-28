@@ -1,0 +1,31 @@
+.player {
+  width: 50%;
+  height: 100%;
+  color: #ffffff;
+  display: flex;
+  padding: 50px 120px;
+  flex-direction: column;
+  position: relative;
+  .selectSong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .playerDisplay {
+    height: 90%;
+    width: 100%;
+    order: 1;
+  }
+  .playerProgress {
+    height: 5%;
+    width: 100%;
+    order: 2;
+    margin-top: 20px;
+  }
+  .playerControl {
+    height: 5%;
+    width: 100%;
+    order: 3;
+  }
+}
